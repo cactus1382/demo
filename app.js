@@ -178,7 +178,7 @@ function render() {
   const emoji = (S.hero && S.hero.emoji) || SEC.emoji;
   const bookFirst = m.booking && !m.cart;
   const primaryCta = m.catalog ? `<a class="btn ${bookFirst ? "btn-ghost" : "btn-accent"}" href="#catalog">${esc(bookFirst ? (S.texts && S.texts.catalogTitle || SEC.catalog) : (S.hero && S.hero.cta || SEC.cta))}</a>` : "";
-  const bookCta = m.booking ? `<a class="btn ${bookFirst ? "btn-accent" : "btn-ghost"}" href="#booking">📅 رزرو نوبت آنلاین</a>` : "";
+  const bookCta = m.booking ? `<a class="btn ${bookFirst ? "btn-accent" : "btn-ghost"}" href="#booking">📅 ${esc(S.hero && S.hero.bookCta || "رزرو نوبت آنلاین")}</a>` : "";
   const waCta = c.whatsapp ? `<a class="btn btn-ghost" href="https://wa.me/${esc(c.whatsapp)}" target="_blank" rel="noopener">پیام در واتساپ</a>` : "";
 
   $("#app").innerHTML = `

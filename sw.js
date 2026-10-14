@@ -1,5 +1,5 @@
 /* Offline cache. Bump CACHE after editing any file so visitors get the new version. */
-const CACHE = "demo-v1";
+const CACHE = "demo-v2";
 const ASSETS = [
   "./", "index.html", "styles.css", "app.js", "config.js", "manifest.json", "icon.svg",
   "examples/terrace.js"
