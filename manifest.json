@@ -1,0 +1,12 @@
+{
+  "name": "اپ کسب‌وکار",
+  "short_name": "اپ",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf6f0",
+  "theme_color": "#7a4a2b",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
